@@ -1,6 +1,8 @@
-package com.example.order;
+package com.example.shopping;
 
 public enum OrderStatus {
     PENDING,
-    PAID
+    PAID,
+    CANCELLED,
+    REFUNDED
 }
